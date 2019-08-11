@@ -5,3 +5,4 @@ Jetpack使用demo（持续更新）
 
 - LiveData
 - ViewModel
+- Room
