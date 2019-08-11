@@ -18,11 +18,12 @@ public class ApiClient {
     private volatile static Retrofit sRetrofit;
 
     private static final class ServiceHolder {
-        private static final WebService SERVICE = getRetrofit().create(WebService.class);
+//        private static final WebService SERVICE = getRetrofit().create(WebService.class);
     }
 
     public static WebService getService() {
-        return ServiceHolder.SERVICE;
+//        return ServiceHolder.SERVICE;
+        return null;
     }
 
     private static Retrofit getRetrofit() {
